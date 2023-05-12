@@ -1,6 +1,6 @@
-# Bayesian_phylogenetic_coevolution
+# NetCoPhylo
 
-This is a novel computational tool that integrates Bayesian methods into a phylogenetic framework to identify significant co-evolving sites among pre-defined subgroups of sequences. It consist of a shell script to run the R script for submitting a batch job. Alternatively, the Rscript can be used by itself.
+This is a novel computational tool that integrates Bayesian methods into a phylogenetic framework to identify significant co-evolving sites across branches among pre-defined subgroups of sequences. It consist of a shell script to run the R script for submitting a batch job. Alternatively, the Rscript can be used by itself.
 
 The input of the tool includes a phylogenetic tree in nexus format (from BEAST¹) and a .json file generated in Nexstrain².
 
@@ -53,6 +53,8 @@ Rscript coevol_tool.R -t N07_SIV.tre -a N07_SIV.json -d 75 -o N07
 3) An image with the networks of significant pairs of sites that are coevolving together. These networks have arrows to indicate the directionality of the coevolution (.png format).
 
 For example, ```-o``` N01_sites will generate files named *N01_sites_branch-site_mutations_min.win.csv, N01_sites_strength_distribution.png, N01_sites_sites.png*.
+
+## Dependencies
 
 
 
