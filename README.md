@@ -26,8 +26,8 @@ Options:
 	-a ANCESTRAL, --ancestral=ANCESTRAL
 		Load ancestral state reconstruction .json file
 
-	-d NUMBER, --dpi=NUMBER
-		Number of days post infection at necropsy
+	-d NUMBER, --days=NUMBER
+		Most recent time point in days
 
 	-w WINDOW, --window=WINDOW
 		Length of time windows in days [default 30]
