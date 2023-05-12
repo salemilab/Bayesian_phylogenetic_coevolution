@@ -53,3 +53,11 @@ Rscript coevol_tool.R -t N07_SIV.tre -a N07_SIV.json -d 75 -o N07
 3) An image with the networks of significant pairs of sites that are coevolving together. These networks have arrows to indicate the directionality of the coevolution (.png format).
 
 For example, ```-o``` N01_sites will generate files named *N01_sites_branch-site_mutations_min.win.csv, N01_sites_strength_distribution.png, N01_sites_sites.png*.
+
+
+
+
+
+
+¹ Suchard MA, Lemey P, Baele G, Ayres DL, Drummond AJ & Rambaut A (2018) Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10 Virus Evolution 4, vey016. DOI:10.1093/ve/vey016.
+² Hadfield et al., Nextstrain: real-time tracking of pathogen evolution, Bioinformatics (2018).		
