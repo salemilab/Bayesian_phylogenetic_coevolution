@@ -79,7 +79,7 @@ friedrice = merge(tree_data,mut_info) #only merging rows with all data available
 origin_dpi=0
 size=parser$window
 slide=parser$window
-nec=parser$dpi
+nec=parser$days
 
 Window<-as.data.frame(cbind(Start=seq(origin_dpi,nec-parser$window,slide), End=seq(size,nec,slide)))
 
